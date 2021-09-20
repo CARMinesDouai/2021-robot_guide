@@ -1,12 +1,18 @@
 # 2021-robot_guide
-deps => dossier contenant les dépendances du projet
-robot_guide => dossier du projet
 
 # Installation
 
 ## Prerequisites
 
-* [Installing ROS Environment](http://wiki.ros.org/fr/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+[Installing ROS Environment](http://wiki.ros.org/fr/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+
+Dependencies :
+
+* `ros-melodic-freenect-*`
+
+* `ros-melodic-web-video-server-*`
+
+* `ros-melodic-pid`
 
 Install robot_guide project :
 
@@ -17,6 +23,8 @@ cd ..
 catkin_make
 ```
 
+## Run project
+
 Run simulation :
 
 `roslaunch robot_guide simulation.launch`
@@ -24,6 +32,14 @@ Run simulation :
 Run gmapping :
 
 `roslaunch robot_guide gmapping.launch`
+
+Run video :
+
+`roslaunch robot_guide video.launch`
+
+Run minimal bringup :
+
+`roslaunch robot_guide bringup_minimal.launch`
 
 Run web server :
 
