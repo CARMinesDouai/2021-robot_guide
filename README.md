@@ -14,6 +14,22 @@ Dependencies :
 
 * `ros-melodic-pid`
 
+* `ros-melodic-ecl-*`
+
+* `ros-melodic-yocs-controllers`
+
+* `ros-melodic-laser-*`
+
+* `ros-melodic-joy-*`
+
+* `ros-melodic-urg-node`
+
+Pour lancer les simulations :
+
+* `ros-melodic-desktop-full`
+
+* `ros-desktop`
+
 Install robot_guide project :
 
 ```bash
