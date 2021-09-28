@@ -41,13 +41,13 @@ catkin_make
 
 ## Run project
 
-Run simulation :
+```
+roslaunch robot_guide simulation.launch
+roslaunch robot_guide gmapping.launch
+roslaunch turtlebot_teleop keyboard_teleop.launch
 
-`roslaunch robot_guide simulation.launch`
-
-Run gmapping :
-
-`roslaunch robot_guide gmapping.launch`
+rviz -d `rospack find robot_guide`/config/gmapping.rviz
+```
 
 Run video :
 

@@ -6,7 +6,7 @@ robot_radius: 0.20  # distance a circular robot should be clear of the obstacle 
 #footprint: [ [0.25, 0.25], [-0.25, 0.25], [-0.25, -0.25], [0.25, -0.25] ]
 #footprint_padding: 0.05
 
-map_type: voxel
+# map_type: voxel
 
 obstacle_layer:
   enabled:              true
@@ -42,5 +42,5 @@ inflation_layer:
 
 static_layer:
   enabled:              true
-  
+
 
