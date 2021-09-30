@@ -1,5 +1,17 @@
 # 2021-robot_guide
 
+## Organization
+
+.
+├── deps		-	Dépendances du projet
+└── robot_guide
+    ├── launch		- 	Launch files
+    ├── models		- 	Map and robot files for simulation
+    ├── params		- 	Parameter files
+    ├── urdf		- 	Robot descriptions
+    └── web		- 	Web files
+
+
 # Installation
 
 ## Prerequisites
@@ -7,8 +19,6 @@
 [Installing ROS Environment](http://wiki.ros.org/fr/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
 Dependencies :
-
-* `ros-melodic-freenect-*`
 
 * `ros-melodic-web-video-server-*`
 
@@ -24,11 +34,21 @@ Dependencies :
 
 * `ros-melodic-urg-node`
 
+* `ros-melodic-rosbridge-*`
+
+* `ros-melodic-dwa-local-planner-*`
+
+* `ros-melodic-move-base`
+
+* `ros-melodic-gmapping`
+
 Pour lancer les simulations :
 
 * `ros-melodic-desktop-full`
 
 * `ros-desktop`
+
+* `ros-melodic-freenect-*`
 
 Install robot_guide project :
 
