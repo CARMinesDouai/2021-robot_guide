@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="robot_guide" name="person_tracking" type="person_tracking.py" output="screen">
+	</node>
+</launch>
