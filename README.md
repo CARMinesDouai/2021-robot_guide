@@ -52,6 +52,14 @@ Dependencies :
 
 * `ros-melodic-gazebo-ros`
 
+Python :
+
+* `pandas`
+
+* `pyzbar`
+
+* `zbar-tools`
+
 Pour lancer les simulations :
 
 * `ros-melodic-desktop-full`
