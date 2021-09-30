@@ -2,14 +2,20 @@
 
 ## Organization
 
-.
-├── deps		-	Dépendances du projet
-└── robot_guide
-    ├── launch		- 	Launch files
-    ├── models		- 	Map and robot files for simulation
-    ├── params		- 	Parameter files
-    ├── urdf		- 	Robot descriptions
-    └── web		- 	Web files
+
+deps		-	Dépendances du projet
+
+robot_guide :
+
+launch		- 	Launch files
+
+models		- 	Map and robot files for simulation
+
+params		- 	Parameter files
+
+urdf		- 	Robot descriptions
+
+web		- 	Web files
 
 
 # Installation
