@@ -42,6 +42,10 @@ Dependencies :
 
 * `ros-melodic-gmapping`
 
+* `ros-melodic-dynamic-reconfigure`
+
+* `ros-melodic-gazebo-ros`
+
 Pour lancer les simulations :
 
 * `ros-melodic-desktop-full`
