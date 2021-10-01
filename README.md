@@ -4,7 +4,7 @@ Ce projet a pour but de créer un robot capable de suivre un QR code.
 
 Ce projet contient :
 
-* un serveur web utilisateur, permettant d'obtenir le QR code;
+* Un serveur web utilisateur, permettant d'obtenir le QR code;
 
 * Un serveur web administrateur, affichant un flux vidéo et la carte générée.
 
