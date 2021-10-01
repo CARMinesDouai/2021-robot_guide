@@ -23,17 +23,17 @@ vel_msg.angular.z = 0
 def where_to_look(shape_x,middle_x):
     global vel_msg
     center_x = shape_x / 2
-    threshold_x = shape_x * 0.05
+    threshold_x = shape_x * 0.15
 
     if middle_x < (center_x - threshold_x) or middle_x > (center_x + threshold_x):
         if middle_x < (center_x):
-            vel_msg.linear.x = 0.2
-            vel_msg.angular.z = -0.5
+            vel_msg.linear.x = 0.05
+            vel_msg.angular.z = 0.1
         else:
-            vel_msg.linear.x = 0.2
-            vel_msg.angular.z = +0.5
+            vel_msg.linear.x = 0.05
+            vel_msg.angular.z = -0.1
     else:
-        vel_msg.linear.x = 0.2
+        vel_msg.linear.x = 0.05
 
 # main
 def main():
