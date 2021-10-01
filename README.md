@@ -107,9 +107,9 @@ Run minimal bringup :
 
 `roslaunch robot_guide bringup_minimal.launch`
 
-Run demo :
+Run QR code tracking :
 
-`roslaunch robot_guide demo.launch`
+`rosrun robot_guide qr_code_tracking.py`
 
 Run web-user server :
 
