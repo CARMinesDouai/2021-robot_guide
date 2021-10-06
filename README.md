@@ -8,6 +8,8 @@ Ce projet contient :
 
 * Un serveur web administrateur, affichant un flux vidéo et la carte générée.
 
+Vidéo de démonstration et d'explication : https://www.youtube.com/watch?v=pI36DwX-umE
+
 ## Organization
 
 deps		-	Dépendances du projet
